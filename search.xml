@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/10/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo create</title>
+    <url>/2019/10/06/T1006/</url>
+    <content><![CDATA[<h1 id="Hexo-create"><a href="#Hexo-create" class="headerlink" title="Hexo create"></a>Hexo create</h1><p>Hexo搭建了很多次，由于是在虚拟机中搭建的<br>由于经常换虚拟机，每次更换搭建的hexo都没有了<br>heox的环境搭建也较麻烦，在此记录</p>
+<a id="more"></a>
+
+<h2 id="1-安装git工具"><a href="#1-安装git工具" class="headerlink" title="1.安装git工具"></a>1.安装git工具</h2><p>sudo yum -y install git-all.noarch</p>
+<h2 id="2-安装Node-js"><a href="#2-安装Node-js" class="headerlink" title="2.安装Node.js"></a>2.安装Node.js</h2><p>curl -o- <a href="https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh" target="_blank" rel="noopener">https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh</a> | bash<br>nvm install node</p>
+<h2 id="3-安装-Hexo"><a href="#3-安装-Hexo" class="headerlink" title="3.安装 Hexo"></a>3.安装 Hexo</h2><p>npm install -g hexo-cli<br>npm install hexo<br>3.1设置hexo环境变量<br>echo ‘PATH=”$PATH:./node_modules/.bin”‘ &gt;&gt; ~/.profile</p>
+<h2 id="4-建站"><a href="#4-建站" class="headerlink" title="4.建站"></a>4.建站</h2><p>hexo init</p>
+<h3 id="4-1-Next-主题"><a href="#4-1-Next-主题" class="headerlink" title="4.1 Next 主题"></a>4.1 Next 主题</h3><p>mkdir themes/next<br>curl -L <a href="https://api.github.com/repos/iissnan/hexo-theme-next/tarball/v5.1.2" target="_blank" rel="noopener">https://api.github.com/repos/iissnan/hexo-theme-next/tarball/v5.1.2</a> | tar -zxv -C themes/next –strip-components=1</p>
+<h3 id="4-2安装本地服务器"><a href="#4-2安装本地服务器" class="headerlink" title="4.2安装本地服务器"></a>4.2安装本地服务器</h3><p>npm install hexo-server –save</p>
+<h2 id="5-hexo和github联系起来"><a href="#5-hexo和github联系起来" class="headerlink" title="5.hexo和github联系起来"></a>5.hexo和github联系起来</h2><h3 id="5-1安装git插件"><a href="#5-1安装git插件" class="headerlink" title="5.1安装git插件"></a>5.1安装git插件</h3><p>npm install hexo-deployer-git –save</p>
+<h3 id="5-2本地添加公钥参考git-syn"><a href="#5-2本地添加公钥参考git-syn" class="headerlink" title="5.2本地添加公钥参考git.syn"></a>5.2本地添加公钥参考git.syn</h3><h3 id="5-3配置Deployment-在-config-yml文件，修改repo值"><a href="#5-3配置Deployment-在-config-yml文件，修改repo值" class="headerlink" title="5.3配置Deployment 在_config.yml文件，修改repo值"></a>5.3配置Deployment 在_config.yml文件，修改repo值</h3><p>deploy:<br>    type: git<br>    repository: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:padparadccha/padparadccha.github.io.git<br>    branch: master</p>
+<h2 id="6-部署发布"><a href="#6-部署发布" class="headerlink" title="6.部署发布"></a>6.部署发布</h2><p>hexo d -g</p>
+]]></content>
+      <tags>
+        <tag>Technology</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记录下第一封信</title>
+    <url>/2019/09/09/909/</url>
+    <content><![CDATA[<p>今天早上，我看到你发的日记了。。。<br>我哭了，因为你的感受和我的一样，你写的我都感受的到。<br>你总是在我脑海里，随时都可能会出现，<br>不经意间的出现，我就呆呆的在那思索片刻，又继续工作。</p>
+<a id="more"></a>
+
+<p>我总是在想，我是个渣男<br>没有能力承担这责任，也不知道该如何解决。<br>我就不该去找你，而找你之后，我却狠心离开。<br>我常常在想分开那晚，你说的话：<br>你不想挂断，因为你知道，这已挂断就不会再有联系了。<br>我像个骗子一样，不停的安慰你：<br>没事的，就当今晚什么都没有发生，我们第二天仍然像以前一样。<br>过了多少个第二天，确实没有再联系了。<br>我真是个骗子。</p>
+<p>我进退两难，<br>不知道该去找你，还是继续克制自己。<br>以前我一直抓住不放手，是因为我觉得，我还有机会改变我们以后，<br>现在，我对自己无力了，时间飞逝，以来不及我去做准备，<br>毕业三年来，还是原来的我，没有任何能力去改变，<br>我终究没有能力，<br>我一直以为，我会成长到去拥有你的能力，<br>才发现，时间已过，我还在原地<br>我真不想浪费你的时间了</p>
+<p>愿， 你， 幸福</p>
+]]></content>
+  </entry>
+</search>
