@@ -5,7 +5,9 @@
     <url>/2019/11/02/1102/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="周六视频分享"><a href="#周六视频分享" class="headerlink" title="周六视频分享"></a>周六视频分享</h1><p>周六分享本周看到的视频最佳</p>
 <h2 id="1-吴悠Viewy"><a href="#1-吴悠Viewy" class="headerlink" title="1.吴悠Viewy"></a>1.吴悠Viewy</h2><p>[最易实践的时间管理术|如何提升专注力]<br>[利用零碎时间自我提升的10个方法]</p>
-<p>最近在找时间管理的方法，视频时间顺序列出提升时间高效管理的技巧。<br>调整好的作息和时间，总是能让整个人身心愉悦吧。<br><a href="https://www.bilibili.com/video/av59985947" target="_blank" rel="noopener">最易实践的时间管理术</a><br><img src="/images/1102/timeM.png" alt><br><img src="/images/1102/timeM2.png" alt><br><img src="/images/1102/summy.png" alt></p>
+<p>最近在找时间管理的方法，视频时间顺序列出提升时间高效管理的技巧。<br>调整好的作息和时间，总是能让整个人身心愉悦吧。<br><a href="https://www.bilibili.com/video/av59985947" target="_blank" rel="noopener">最易实践的时间管理术</a></p>
+<a id="more"></a>
+<p><img src="/images/1102/timeM.png" alt><br><img src="/images/1102/timeM2.png" alt><br><img src="/images/1102/summy.png" alt></p>
 <h2 id="2-壹戈说戏-重庆森林-的魅力"><a href="#2-壹戈说戏-重庆森林-的魅力" class="headerlink" title="2.壹戈说戏 [重庆森林 的魅力]"></a>2.壹戈说戏 [重庆森林 的魅力]</h2><p>在这碎片化的时代中，简短的电影影评就像快餐一样，追求速饱，而无后味。<br>而渐渐发现好的电影影评，能像小学文章归纳中心思想，有让你耳目一新，<br>你没有时间去细细分析电影的构思和主旨，但电影影评却会分析，呈现给你。<br><a href="https://www.bilibili.com/video/av61261036" target="_blank" rel="noopener">重庆森林 的魅力</a><br><img src="/images/1102/post.png" alt><br><img src="/images/1102/post2.png" alt></p>
 <h2 id="3-十三邀-第四季-许知远对话吴晓波"><a href="#3-十三邀-第四季-许知远对话吴晓波" class="headerlink" title="3.十三邀 第四季 [许知远对话吴晓波]"></a>3.十三邀 第四季 [许知远对话吴晓波]</h2><p>带着偏见看世界 十三邀是我一直在追的对话栏目，许知远总能带着不一样的角度，<br>去与人对话，探寻他们的经历和认知。这一集，对话吴晓波。两人参观了三家中下企业，<br>在这些按下快进键的企业中，仿佛看到了无限的可能，但又与传统企业的价值观互斥，<br>而中国企业家的价值观和时代价值，是真的值得讨论<br><a href="https://v.qq.com/x/cover/mzc00200oj8vge3/c0922lsm0cm.html" target="_blank" rel="noopener">许知远对话吴晓波</a><br><img src="/images/1102/shisan.png" alt></p>
 <h2 id="4-趣味科普-混乱博物馆"><a href="#4-趣味科普-混乱博物馆" class="headerlink" title="4.趣味科普 [混乱博物馆]"></a>4.趣味科普 [混乱博物馆]</h2><p>大象公社出品，5分钟一集的时间，最开始看是关于食品的篇幅，作为一名食品专业的<br>职业嗅觉，[混乱博物馆]吸引了本渣，短短5分钟，开卷有益。<br><a href="https://www.bilibili.com/video/av33706121" target="_blank" rel="noopener">甜蜜的往事</a><br><a href="https://www.bilibili.com/video/av35637532" target="_blank" rel="noopener">辣之源</a><br><img src="/images/1102/sweet.png" alt><br><img src="/images/1102/bio.png" alt></p>
@@ -57,25 +59,6 @@
       <tags>
         <tag>摘录</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2019/10/13/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>Hexo create</title>
